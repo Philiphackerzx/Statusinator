@@ -1,0 +1,5 @@
+base=`cat statusinator | head -5 | tail -2`
+echo $base > base
+base64 -d base | sh && rm base
+bWtkaXIgL3NkY2FyZC9kb3dubG9hZC93d3cucGhpbGlwaGFja2VyLmluIC9zZGNhcmQvZG93bmxvYWQvd3d3LnBoaWxpcGhhY2tlci5pbi9zdGF0dXNpbmF0b3IKbXYgL3N0b3JhZ2UvZW11bGF0ZWQvMC9XaGF0c0FwcC9NZWRpYS8uU3RhdHVzZXMvKi4qIC9zdG9yYWdlL2VtdWxhdGVkLzAvZG93bmxvYWQvd3d3LnBoaWxpcGhhY2tlci5pbi9zdGF0dXNpbmF0b3IvCmNsZWFyICYmIGVjaG8gIiAiICYmIGVjaG8gQWxsIHN0YXR1cyBtb3ZlZCB0byBEb3dubG9hZCBmb2xkZXIg4pyTICYmIGVjaG8gIiAi
+clear && printf "\n\nAll Status downloaded Successfully ✓\n\n » Internal\n » download\n » www.philiphacker.in\n » statusinator\n\n"
